@@ -1,0 +1,65 @@
+Checks of the modified Piezo1 model, written by check_Piezo1.m
+tau_act 3.1620 ms, k_inact 0.9098, tau_rec 0.2023 s, at 295 K. None of the values below entered the fit.
+A check passes within two standard errors or two standard deviations, or within 20 % where the source gives no error.
+One protocol is partly calibrated: the fitted delay of half recovery (0.140 s) was read from the recovery curve
+checked below. The value of that curve next to it (0.16 s) is tied to the fit and is not counted.
+
+                                                       measured    allowed      model   passes
+Inactivation of human PIEZO1, whole cell
+  at -80 mV (ms)                                          8.600      0.800      8.332   yes
+
+Inactivation of mouse Piezo1 below the fitted voltages, whole cell
+  at -80 mV, Zheng (ms)                                  11.900      1.200      8.294   no
+  at -100 mV, Wu (ms)                                     8.500      1.700      6.771   no
+  at -80 mV, Wu (ms)                                      8.000      1.600      8.294   yes
+
+Inactivation of mouse Piezo1 above the fitted voltages, whole cell
+  at +40 mV, Wu (ms)                                     33.000      6.600     24.535   no
+  at +60 mV, Wu (ms)                                     48.000      9.600     27.641   no
+  at +80 mV, Wu (ms)                                     70.000     14.000     30.327   no
+  at +100 mV, Wu (ms)                                    95.000     19.000     32.382   no
+
+Sustained current, cell attached, -80 mV
+  current left after 300 ms (fraction)                    0.096      0.080      0.060   yes
+
+Recovery after two steps of 100 ms, cell attached, -80 mV (partly calibrated, see above)
+  recovery after 0.01 s                                   0.168      0.099      0.038   no
+  recovery after 0.02 s                                   0.316      0.114      0.082   no
+  recovery after 0.04 s                                   0.421      0.126      0.167   no
+  recovery after 0.08 s                                   0.439      0.123      0.315   no
+  recovery after 0.16 s                                   0.514      0.117      0.539   tied to the fit, not counted
+  recovery after 0.32 s                                   0.505      0.120      0.790   no
+  recovery after 0.64 s                                   0.553      0.111      0.956   no
+  recovery after 0.64 s                                   0.598      0.153      0.956   no
+  recovery after 1.28 s                                   0.633      0.129      0.997   no
+  recovery after 2.56 s                                   0.663      0.138      0.999   no
+  recovery after 5.12 s                                   0.762      0.150      0.999   no
+  recovery after 10.24 s                                  0.826      0.120      0.999   no
+  recovery after 20.48 s                                  0.886      0.108      0.999   no
+  recovery after 40.96 s                                  0.975      0.126      0.999   yes
+
+Trains of 30 ms steps for 4 s, as a fraction of a 300 ms step given 10 s earlier, cell attached
+  first peak at 0.5 Hz                                    0.780      0.124      0.999   no
+  first peak at 1 Hz                                      0.747      0.146      0.999   no
+  first peak at 2 Hz                                      0.858      0.166      0.999   yes
+  first peak at 5 Hz                                      0.889      0.166      0.999   yes
+  first peak at 10 Hz                                     0.934      0.212      0.999   yes
+  last peak at 0.5 Hz                                     0.635      0.150      0.999   no
+  last peak at 1 Hz                                       0.498      0.140      0.991   no
+  last peak at 2 Hz                                       0.400      0.124      0.905   no
+  last peak at 5 Hz                                       0.294      0.084      0.586   no
+  last peak at 10 Hz                                      0.272      0.110      0.319   yes
+
+BY PROTOCOL
+The values of one protocol are related measurements. The counts are given by protocol and are not added up.
+human PIEZO1, inactivation at -80 mV (Albuisson et al. 2013)                         1 of 1
+mouse Piezo1, inactivation at -100 and -80 mV (Wu et al. 2017, Zheng et al. 2019)    1 of 3
+mouse Piezo1, inactivation at +40 to +100 mV (Wu et al. 2017)                        0 of 4
+sustained current after 300 ms (Lewis et al. 2017)                                   1 of 1
+recovery curve, values not tied to the fit (Lewis et al. 2017)                       1 of 13
+trains, first peak (Lewis et al. 2017)                                               3 of 5
+trains, last peak (Lewis et al. 2017)                                                1 of 5
+
+Open fraction at the peak of a saturating poke at -80 mV: 0.566.
+Not represented in this form, and not run: a slow component of recovery, and the
+recovery of the current by an outward current at positive potentials.

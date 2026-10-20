@@ -1,0 +1,113 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below, and the preprint listed under references."
+type: software
+title: "hiMCES2026 with modified Piezo1 and ChR2: Simulations of optical and mechanical pacing in hiPSC-derived cardiomyocytes"
+version: 1.0.0
+date-released: 2026-10-20
+repository-code: "https://github.com/aminforouzandehmehr/hiMCES2026-OptoSono"
+doi: 10.5281/zenodo.23430167
+license: MIT
+authors:
+  - family-names: Forouzandehmehr
+    given-names: Amin
+keywords:
+  - hiPSC-derived cardiomyocytes
+  - Piezo1
+  - channelrhodopsin-2
+  - optogenetics
+  - sonogenetics
+  - computational model
+  - MATLAB
+references:
+  - type: article
+    title: "Optogenetic and sonogenetic pacing of unmodified cardiac tissue upon quick integration with specialized biological actuators"
+    authors:
+      - family-names: Pettebone
+        given-names: Morgan E.
+      - family-names: Han
+        given-names: Julie L.
+      - family-names: Forouzandehmehr
+        given-names: Amin
+      - family-names: Chesla
+        given-names: Olivia
+      - family-names: Chua
+        given-names: Christianne J.
+      - family-names: Pozo
+        given-names: Maria R.
+      - family-names: Heinson
+        given-names: Yuli W.
+      - family-names: Liu
+        given-names: Wei
+      - family-names: Entcheva
+        given-names: Emilia
+    journal: bioRxiv
+    year: 2026
+    doi: 10.64898/2026.10.19.760310
+  - type: article
+    title: "Response of human iPSC-cardiomyocytes to adrenergic drugs assessed by high-throughput pericellular oxygen measurements and computational modeling"
+    authors:
+      - family-names: Li
+        given-names: W.
+      - family-names: Forouzandehmehr
+        given-names: M. A.
+      - family-names: McLeod
+        given-names: D.
+      - family-names: Pozo
+        given-names: M. R.
+      - family-names: Heinson
+        given-names: Y. W.
+      - family-names: Kay
+        given-names: M. W.
+      - family-names: Li
+        given-names: Z.
+      - family-names: Morotti
+        given-names: S.
+      - family-names: Entcheva
+        given-names: E.
+    journal: "Journal of Molecular and Cellular Cardiology Plus"
+    volume: 15
+    start: 100834
+    year: 2026
+    doi: 10.1016/j.jmccpl.2026.100834
+  - type: conference-paper
+    title: "Mechanosensitive Channel Piezo1 in R403Q Hypertrophic Cardiomyopathy: A Computational Study"
+    authors:
+      - family-names: Forouzandehmehr
+        given-names: M.
+      - family-names: Ghosi
+        given-names: S.
+      - family-names: Paci
+        given-names: M.
+      - family-names: Hyttinen
+        given-names: J.
+      - family-names: Koivumäki
+        given-names: J.
+    collection-title: "Computing in Cardiology"
+    volume: 50
+    year: 2023
+    doi: 10.22489/CinC.2023.359
+  - type: article
+    title: "Computational optogenetics: empirically-derived voltage- and light-sensitive channelrhodopsin-2 model"
+    authors:
+      - family-names: Williams
+        given-names: J. C.
+      - family-names: Xu
+        given-names: J.
+      - family-names: Lu
+        given-names: Z.
+      - family-names: Klimas
+        given-names: A.
+      - family-names: Chen
+        given-names: X.
+      - family-names: Ambrosi
+        given-names: C. M.
+      - family-names: Cohen
+        given-names: I. S.
+      - family-names: Entcheva
+        given-names: E.
+    journal: "PLoS Computational Biology"
+    volume: 9
+    issue: 9
+    start: e1003220
+    year: 2013
+    doi: 10.1371/journal.pcbi.1003220

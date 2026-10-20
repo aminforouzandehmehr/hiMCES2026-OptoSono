@@ -1,0 +1,37 @@
+Report of the original fit of the modified Piezo1 model (11 October 2026), reproduced
+verbatim. It was written by the development versions of calibration/fit_Piezo1.m
+(then fit_B.m and fit_B_restart.m); "variant B" is the development name of the
+modified Piezo1 model. The frozen parameters are the restart result rounded to four
+significant digits: tau_act 3.162 ms, k_inact 0.9098, tau_rec 0.2023 s.
+
+----------------------------------------------------------------------------------
+Fit of variant B, written by fit_B.m on 2026-10-11 13:59
+Recording temperature 295 K. Cost 5.5612 (second start 7.9371).
+
+                 fitted      second start
+tau_act (ms)     3.1614      2.8485
+k_inact          0.9099      0.9958
+tau_rec (s)      0.2022      0.1834
+
+FITTED TARGETS
+data set                 V (mV)   measured    error    model   distance   within the error bar
+Wu et al. 2017              -60       9.12     1.25    10.16      +0.83   yes
+Wu et al. 2017              -40      11.05     1.57    12.40      +0.86   yes
+Wu et al. 2017              -20      13.95     2.00    15.05      +0.55   yes
+Wu et al. 2017                0      17.79     2.72    18.03      +0.09   yes
+Wu et al. 2017               20      24.09     3.95    21.26      -0.72   yes
+Zheng et al. 2019           -60      10.75     1.17    10.16      -0.50   yes
+Zheng et al. 2019           -40      12.13     1.67    12.40      +0.16   yes
+Zheng et al. 2019           -20      14.85     2.05    15.05      +0.10   yes
+Zheng et al. 2019             0      18.64     3.20    18.03      -0.19   yes
+Zheng et al. 2019            20      26.80     3.24    21.26      -1.71   no
+deactivation (ms)           -80       4.00     0.80     3.86      -0.18   yes
+half recovery (s)           -80      0.140    0.028    0.144      +0.13   yes
+
+11 of 12 fitted targets pass. "distance" is in units of the error bar or of the 20 % tolerance.
+
+RESTART from the stored result, written by fit_B_restart.m on 2026-10-11 14:01
+stored  : tau_act 3.1614 ms, k_inact 0.9099, tau_rec 0.2022 s, cost 5.56120
+restart : tau_act 3.1617 ms, k_inact 0.9098, tau_rec 0.2023 s, cost 5.56119
+The restart is better and replaces the stored result.
+A restart that does not move shows a stable local minimum. A wider search was not made, so it is not shown to be the lowest one.

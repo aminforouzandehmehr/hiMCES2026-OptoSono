@@ -1,0 +1,10 @@
+Fig. 8A measurements of the stored runs (Piezo1 cell, 304 K, Tyrode; mechanical pulse 0.336 kPa;
+Piezo1-off control with a 1.344 kPa pulse). Written by figure8A_metrics.m.
+
+Light pulses (10 ms, 0.15 mW/mm2, 0.5 Hz): 3 of 3 captured; peak I_ChR2 -2.19 A/F
+Mechanical pulse at 5.0 s for 0.5 s: captured 1, latency 11.3 ms
+  peak I_Piezo1 during the pulse: -3.68 A/F inward, +0.41 A/F outward
+Controls: no mechanical pulse, upstroke in the window 0 (next upstrokes at [6.533 8.893] s);
+          Piezo1 off with the mechanical pulse, upstroke in the window 0
+APD90: light beat at 2 s 624 ms, mechanical beat 582 ms
+Peak Ca2+: light beat at 4 s 189 nM, mechanical beat 147 nM
