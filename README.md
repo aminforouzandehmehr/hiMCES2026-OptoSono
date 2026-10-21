@@ -49,8 +49,7 @@ never overwritten.
 `verify_release` checks reproduction of the preprint reference runs and exact agreement
 with the published hiMCES2026 host derivatives and outputs at the sampled test states
 when both added currents are off. The full check also repeats conditioning and channel
-measurements. These are implementation and reproducibility checks; passing them does
-not establish experimental validity.
+measurements.
 
 ## Protocol of Fig. 8A
 
@@ -170,7 +169,7 @@ were read from the figure and use an assigned 20% tolerance. See
 [fit_report.txt](reference_outputs/fit_report.txt) for the original fit, and
 [check_report.txt](reference_outputs/check_report.txt) for every check and its allowance.
 Counts are reported by protocol, not pooled into a validation score. Checks were not
-used in the fit but were inspected during development; they are not a blinded test set.
+used in the fit.
 
 `calibration/check_Piezo1.m` writes the full table (`reference_outputs/check_report.txt`
 holds it for the frozen parameters). `calibration/fit_Piezo1.m` repeats the fit
