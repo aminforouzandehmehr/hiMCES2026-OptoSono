@@ -155,3 +155,5 @@ PLoS Comput Biol 2013;9(9):e1003220 (DOI 10.1371/journal.pcbi.1003220); the host
 model is Li et al., J Mol Cell Cardiol Plus 2026;15:100834
 (DOI 10.1016/j.jmccpl.2026.100834); the original Piezo1 model is Forouzandehmehr et
 al., Computing in Cardiology 2023;50 (DOI 10.22489/CinC.2023.359).
+
+Zenodo DOI: [10.5281/zenodo.23430167](https://doi.org/10.5281/zenodo.23430167).
