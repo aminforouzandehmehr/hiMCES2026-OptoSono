@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and the preprint listed under references."
 type: software
-title: "hiMCES2026 with modified Piezo1 and ChR2: Simulations of optical and mechanical pacing in hiPSC-derived cardiomyocytes"
+title: "hiMCES2026–Piezo1–ChR2: Model code for optical and mechanical pacing of human iPSC-derived cardiomyocytes"
 version: 1.0.0
 date-released: 2026-10-20
 repository-code: "https://github.com/aminforouzandehmehr/hiMCES2026-OptoSono"

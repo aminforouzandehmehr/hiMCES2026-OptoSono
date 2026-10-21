@@ -1,4 +1,4 @@
-# hiMCES2026 with modified Piezo1 and ChR2
+# hiMCES2026–Piezo1–ChR2: Model code for optical and mechanical pacing of human iPSC-derived cardiomyocytes
 
 Simulations of optical and mechanical pacing in hiPSC-derived cardiomyocytes.
 Version 1.0.0. Software DOI: [10.5281/zenodo.23430167](https://doi.org/10.5281/zenodo.23430167).
