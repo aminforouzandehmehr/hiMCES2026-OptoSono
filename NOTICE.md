@@ -45,10 +45,9 @@ builds on the components below. Their notices are retained.
   Cohen IS, Entcheva E. Computational optogenetics: empirically-derived voltage- and
   light-sensitive channelrhodopsin-2 model. PLoS Comput Biol 2013;9(9):e1003220.
   DOI 10.1371/journal.pcbi.1003220.
-- Equations and parameter values follow that paper. Where the paper rounds a
-  constant (the prefactor of the recovery rate Gr and the photon flux constant), the
-  value of the authors' MATLAB code (ModelDB accession 151549) is used; this is
-  noted in the model file. No file or code of the authors is included in this release.
+- Equations and parameter values follow that paper. The Gr prefactor and photon-flux
+  constant follow the authors' MATLAB implementation (ModelDB accession 151549),
+  as noted in the model file. No file or code of the authors is included in this release.
 
 ## Calibration data
 

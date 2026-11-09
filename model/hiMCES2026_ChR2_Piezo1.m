@@ -1132,9 +1132,9 @@ end
 %% IChR2 (Williams et al. 2013)
 % Added to the published model. Four state photocycle of ChR2 H134R from Table 1 of
 % Williams JC, Xu J, Lu Z, Klimas A, Chen X, Ambrosi CM, Cohen IS and Entcheva E (2013)
-% PLoS Comput Biol 9:e1003220. Written from the published equations; where the paper
-% rounds a constant, the value of the authors' MATLAB code (ModelDB accession 151549)
-% is used, as noted below. No file of that code is included. During development this
+% PLoS Comput Biol 9:e1003220. Written from the published equations. The Gr prefactor and
+% photon-flux constant follow the authors' MATLAB implementation (ModelDB accession 151549),
+% as noted below. No file of that code is included. During development this
 % block was compared with outputs of that code.
 %
 % States: Y(36) open O1, Y(37) open O2, Y(38) closed C2, and C1 = 1 - O1 - O2 - C2.

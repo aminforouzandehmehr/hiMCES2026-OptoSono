@@ -57,8 +57,12 @@ measurements.
 
 To explore other settings, edit `stimAmp`, `stimOn` and `stimDur` in
 `MasterCompute_OptoSono.m`, and light intensity and duration in `model/OptoSono_settings.m`.
-Other model parameters are in `model/ChR2_Piezo1_opts.m`. Save changes and rerun the figure script;
-changes to the paced steady state require reconditioning (see `condition_OptoSono.m`).
+Other model defaults are in `model/ChR2_Piezo1_opts.m`; values set by
+`OptoSono_settings.m` take precedence. Save changes and rerun the figure script.
+Changes to the paced steady state require reconditioning with `condition_OptoSono.m`.
+It saves `results/settled_<cellType>_31C.mat`, containing `st.Y`. To use these new states,
+update the figure script's initial-condition loading so `IC1.Y` and `IC0.Y` come from
+the corresponding `st.Y`; the script otherwise continues to use the bundled states.
 
 ## Protocol of Fig. 8A
 
@@ -148,9 +152,9 @@ The stress-filter time constant $\tau_{\mathrm{tr}}$ is not temperature-scaled.
 | $Q_{10}$ | 2 for the three gate time constants (factor 0.5359 at 304 K) | Assumption |
 | $f_{\mathrm{Ca}}$ | 0.05 of the inward current as Ca²⁺, rest Na⁺ | Approximation derived from permeability ratios; not a measured current fraction |
 
-`model/OptoSono_settings.m` returns these settings. The defaults of
-`model/ChR2_Piezo1_opts.m` are the published values of version 1.1 and are not the
-Fig. 8A configuration.
+`model/OptoSono_settings.m` returns these settings. Defaults in
+`model/ChR2_Piezo1_opts.m` combine version 1.1 conductance and reference stress with
+modified gating and simplified ion accounting; they are not the Fig. 8A configuration.
 
 ## Calibration and checks of the Piezo1 gates
 
