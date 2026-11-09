@@ -25,11 +25,15 @@ these presentation changes do not alter the model or reference outputs.
 
 ## Requirements
 
-MATLAB, base product only (no toolboxes). Tested with MATLAB R2026a Update 2 on macOS.
+MATLAB, base product only (no toolboxes). Tested with MATLAB R2026a Update 2 on macOS 26.6.2.
+No special hardware is required; a standard desktop or laptop is sufficient.
 Reference simulations use the variable-step, double-precision solver described below.
 Fixed-step and single-precision ports have not been verified by this release.
 
 ## Quick start
+
+No compilation or package installation is needed. Estimated setup time is 1–2 min
+with MATLAB already installed, excluding download time.
 
 Download and extract the [v1.0.0 release](https://github.com/aminforouzandehmehr/hiMCES2026-OptoSono/releases/tag/v1.0.0),
 or clone this repository. Open MATLAB with the extracted or cloned repository as its
@@ -50,6 +54,11 @@ never overwritten.
 with the published hiMCES2026 host derivatives and outputs at the sampled test states
 when both added currents are off. The full check also repeats conditioning and channel
 measurements.
+
+To explore other settings, edit `stimAmp`, `stimOn` and `stimDur` in
+`MasterCompute_OptoSono.m`, and light intensity and duration in `model/OptoSono_settings.m`.
+Other model parameters are in `model/ChR2_Piezo1_opts.m`. Save changes and rerun the figure script;
+changes to the paced steady state require reconditioning (see `condition_OptoSono.m`).
 
 ## Protocol of Fig. 8A
 
